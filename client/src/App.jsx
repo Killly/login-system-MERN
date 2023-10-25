@@ -1,7 +1,11 @@
-import { useState } from "react";
+import { Home } from "./pages";
 
 function App() {
-  return <>Login</>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
